@@ -1,34 +1,31 @@
 MoBlog
-===================================
-###截图###
+=====================================
+###screenshot###
 ![Snip20150220_1.png](./Snip20150220_1.png "Snip20150220_1.png")
-###演示###
+### Demo###
 
-网址： [http://moblog.coding.io/](http://moblog.coding.io/)
+URL: [http://moblog.coding.io/](http://moblog.coding.io/)
 
-###说明###
+###illustrate###
 
-1.MoBlog是一个基于Yii2开发的博客系统，目前一些功能正在完善
+1. MoBlog is a blog system developed based on Yii2, and some functions are currently being improved
 
-2.数据库设计直接采用`typecho`的数据库结构，功能结构也是模仿`typecho`
+2. The database design directly adopts the database structure of `typecho`, and the functional structure also imitates `typecho`
 
-3.为了部署到coding演示平台，省掉了yii命令部署方式
+3. In order to deploy to the coding demonstration platform, the yii command deployment method is omitted
 
-###安装###
+###Install###
 
-1.下载或clone源码，运行`composer install`安装依赖
+1. Download or clone source code, run `composer install` to install dependencies
 
-2.导入`common/data/blog.sql`文件到数据库,配置`common/config/main-local.php`文件中数据库组件
+2. Import the `common/data/blog.sql` file to the database, and configure the database components in the `common/config/main-local.php` file
 
-3.配置nginx或apache网站根目录到`web`文件夹
+3. Configure nginx or apache website root directory to `web` folder
 
-4.前台访问`index.php`文件，后台访问`admin.php`文件
+4. Foreground access `index.php` file, background access `admin.php` file
 
-5.后台账号`admin` 密码`123456`
+5. Background account `admin` password `123456`
 
-###协议###
+###protocol###
 
 MIT
-
-
-
